@@ -1,0 +1,14 @@
+.video-text p{
+    font-size: 12px;
+}
+.video-text h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+.img-card{
+    position: relative;
+}
+
+.video-link li{
+    text-decoration: none;
+}

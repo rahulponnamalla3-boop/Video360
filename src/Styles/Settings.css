@@ -1,0 +1,25 @@
+/* Common style for all form fields */
+.form-control,
+.form-select,
+textarea {
+  background-color: #292929 !important;
+  color: white !important;
+  border: 1px solid #393939 !important;
+  border-radius: 0 !important;    /* removes rounded corners */
+  box-shadow: none !important;    /* removes glow/focus border */
+}
+
+/* Keep placeholders slightly visible */
+.form-control::placeholder,
+textarea::placeholder {
+  color: #525252 !important;
+  opacity: 1 !important;
+}
+
+/* Optional: change border on focus for clarity */
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: #212121 !important;  /* subtle highlight on focus */
+  outline: none !important;
+}

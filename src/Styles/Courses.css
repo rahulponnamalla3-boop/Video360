@@ -1,0 +1,109 @@
+.video-text p{
+    font-size: 12px;
+}
+.video-text h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+.img-card{
+    position: relative;
+}
+
+/* Transparent button with black text */
+.custom-dropdown-btn > .btn {
+  background-color: transparent !important;
+  color: rgb(252, 0, 0) !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 14px !important ;
+}
+
+/* On hover/focus, red text for button */
+.custom-dropdown-btn > .btn:hover,
+.custom-dropdown-btn > .btn:focus,
+.custom-dropdown-btn > .btn:active {
+  background-color: transparent !important;
+ 
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Dropdown menu styling */
+.custom-dropdown-btn .dropdown-menu {
+  background-color: #232323 !important;
+  border: none !important;
+  border-radius: 0% !important;
+}
+
+/* Menu item styling */
+.custom-dropdown-btn .dropdown-item {
+  color: grey !important;
+}
+
+.custom-dropdown-btn .dropdown-item:hover,
+.custom-dropdown-btn .dropdown-item:focus {
+  background-color: #222 !important;
+  color: white !important;
+}
+.channel-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.sub-button{
+  background-color: #1b1b1b;
+  border: 1px solid #ff253a;
+  border-radius:2px ;
+  color: #ff253a;
+  
+  font-weight: normal;
+      font-size: 12px;
+    padding: 3px 10px;
+  
+}
+
+
+
+.sub-button:hover {
+  background-color: rgb(252, 0, 0) !important;  /* darker red on hover */
+  transform: scale(1.05);                /* optional: slightly enlarge on hover */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
+  color: white;/* optional: subtle shadow */
+}
+
+.page-link {
+    position: relative;
+    display: block;
+}
+.pagination .page-item.active .page-link {
+    background: #ff0000 none repeat scroll 0 0;
+    
+  
+   
+    margin: 0 7px;
+    text-align: center;
+    
+    
+}
+
+.pagination .page-item .page-link {
+   
+    border: medium none;
+   
+}
+.page-item.active .page-link {
+    z-index: 3;
+}
+
+.pagination-sm .page-link {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+}
+
+.pagination a{
+  background-color: #121212;
+  color: white;
+}

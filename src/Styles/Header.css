@@ -1,0 +1,25 @@
+.Headercss a {
+    text-decoration: none;
+    color: white;
+    
+    font-size: 14px;
+}
+
+.badge{ 
+    border: medium none !important;
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: 700;
+    height: 15px;
+    line-height: 9px;
+    min-width: 15px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 0;
+
+}
+.searchicon
+{
+    border:1px solid rgb(49, 49, 49);
+}

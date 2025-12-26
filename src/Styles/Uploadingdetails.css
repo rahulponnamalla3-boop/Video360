@@ -1,0 +1,86 @@
+/* ---------- Upload Video Page Styles ---------- */
+.uploadvideo-container {
+  background-color: #121212;
+  color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* ---------- Form Controls (Inputs, Textareas, Selects) ---------- */
+.uploadvideo-container input[type="text"],
+.uploadvideo-container input[type="email"],
+.uploadvideo-container input[type="file"],
+.uploadvideo-container input[type="search"],
+.uploadvideo-container textarea,
+.uploadvideo-container select,
+.uploadvideo-container .form-control {
+  background-color: #232323 !important;
+  color: #bfbfbf !important; /* text color */
+  border: 1px solid #333 !important;
+  border-radius: 6px;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+/* ---------- Placeholder Text ---------- */
+.uploadvideo-container input::placeholder,
+.uploadvideo-container textarea::placeholder {
+  color: #808080 !important; /* gray placeholder */
+  opacity: 1;
+}
+
+/* ---------- Focused State ---------- */
+.uploadvideo-container input:focus,
+.uploadvideo-container textarea:focus,
+.uploadvideo-container select:focus {
+  outline: none !important;
+  border-color: red !important;
+  box-shadow: 0 0 0 1px red !important;
+  color: #bfbfbf !important;
+  background-color: #1b1b1b !important;
+}
+
+/* ---------- Form Labels ---------- */
+.uploadvideo-container label {
+  color: #ccc;
+  font-weight: 500;
+}
+
+/* ---------- Checkbox Labels ---------- */
+.uploadvideo-container .form-check-label {
+  color: #ddd;
+}
+
+/* ---------- Buttons ---------- */
+.uploadvideo-container .btn-outline-danger {
+  border-color: red;
+  color: red;
+  transition: all 0.3s ease;
+}
+
+.uploadvideo-container .btn-outline-danger:hover {
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+/* ---------- Scroll to Top Button ---------- */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #232323;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .uploadvideo-container {
+    padding: 15px;
+  }
+}
